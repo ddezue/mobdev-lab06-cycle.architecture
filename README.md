@@ -4,13 +4,6 @@
 Изучить жизненный цикл приложения, архитектурный паттерн MVVM и возможности навигации в Jetpack Compose.
 
 ## Выполненные задания
-
-### Практическая часть: Приложение Unscramble
-Приложение-игра "Расшифруй слово" переведено на архитектуру MVVM с однонаправленным потоком данных (UDF).
-* Реализован класс состояния `GameUiState`.
-* Создан `GameViewModel` с использованием `MutableStateFlow` для хранения состояния и `StateFlow` (через `asStateFlow()`) для его чтения.
-* В `GameScreen` состояние собирается через `collectAsState()`. Логика проверки слов, начисления очков, пропуска и завершения игры перенесена во ViewModel.
-
 ### Задание 1: Приложение ActivityLifecycle
 Создано приложение для отслеживания жизненного цикла Activity. В `MainActivity` переопределены методы `onCreate`, `onStart`, `onResume`, `onPause`, `onStop`, `onRestart`, `onDestroy`. Вызовы методов логируются в Logcat с тегом `LifecycleTest`.
 <img width="1251" height="866" alt="image" src="https://github.com/user-attachments/assets/8c6b8e31-426e-46d9-8c80-265fe2ff79c3" />
